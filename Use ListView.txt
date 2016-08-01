@@ -1,0 +1,8 @@
+Các thuộc tính view:
+    + Namelistview.view = view.LargeIcon (SmallIcon)..
+    
+Thêm 1 dòng: Namelistview.colum.add(new columnHeader(){ Text = "sdcsd"});
+
+Thêm 1 mục (Item) : NamelistView.item.add( new listviewItem() {text = "sdfsd",...});
+thêm thông tin cho Item đó : System.windows.forms.listviewItem.subitems sub = new ..();
+                            NamelistView.item[0].subitems.add(sub)
